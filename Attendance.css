@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin:0;
+    }
+    body{
+        width: 100%;
+        height: 100vh;
+        background-color:white;
+    }
+    
+    header{
+        height: 80px;
+        width: 100%;
+       background-color: orange;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: xx-large;
+        font-weight: 900;
+    }
+    
+    .holder{
+        width: 98%;
+        height: 50%;
+        display: flex;
+        padding: 15px;
+        justify-content: space-between;
+    
+        @media(max-width:1000px) {
+                flex-wrap: wrap;
+                width: 80%;
+                gap: 10%;
+        }
+    }
+    
+    .names{
+        margin-top: 20px;
+        font-weight: 800;
+        font-size: 20px; 
+    }
+    .text{
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    .Fedora{
+        margin-bottom:10px ;}
+    
+    .Abel{
+        margin-bottom: 10px;}
+    
+    .Henry{
+        margin-bottom: 10px;}
+    
+    .Kizito{
+        margin-bottom: 10px;}
+    
+    .Terry{
+        margin-bottom: 10px;}
+    
+    .James{
+        margin-bottom: 10px;}
+    
+    .buttonholder{
+    width: 150px;
+    height: 18px;
+    margin-top: 15px;
+    margin-left: 18px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    }
+    
+    .button1{
+    width: 50px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: larger;
+    }
+    
+    .button2{
+    width: 50px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: larger;
+    }
+    
+    input[type="checkbox"]{
+        accent-color: white;  
+        outline: 0.1px solid black;
+    }
+    
+    .checkbox1{
+        width: 15px;
+        height: 15px;
+        display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    
+    .checkbox2{
+        width: 15px;
+        height: 15px;
+        display: flex;
+       align-items: center;
+       justify-content: center;   
+    }
+    
+    .checkbox3{
+        width: 15px;
+        height: 15px;
+        display: flex;
+       align-items: center;
+       justify-content: center;
+    }   
+    
+    
+    .checkbox4{
+        width: 15px;
+        height: 15px;
+        display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    
+    .checkbox5{
+        width: 15px;
+        height: 15px;
+        display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    
+    .checkbox6{
+        width: 15px;
+        height: 15px;
+        display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    
+    
+    .Div2{
+        display: flex;
+        gap: 20px;
+    }
+    .Div3{
+        display: flex;
+        gap: 20px;
+    }
+    .Div4{
+        display: flex;
+        gap: 20px;
+    }

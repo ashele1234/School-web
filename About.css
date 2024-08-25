@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100%;
+    background-color:rgb(236, 231, 231);
+    overflow-x: hidden;
+  }
+  header{
+    width: 100%;
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+.hanburger{
+    display: none;
+}
+.hanburger div{
+    width: 30px;
+    height:2px ;
+    background-color: black;
+    margin: 8px;
+}
+.hanburger div:last-of-type{
+    width: 20px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15px;
+}
+.logo img{
+width: 120px;
+border: none;
+background: none;
+outline: none;
+}
+.navs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.navs a{
+    margin: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    
+}
+.navs a:hover{
+    text-decoration: underline;
+}
+.btn{
+    background: none;
+    background-color: #ffff;
+}
+.login{
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:rgb(255, 255, 255);
+    
+}
+.login a{
+    text-decoration: none;
+    color: #000000;
+}
+.login a:hover {
+    color:rgb(251, 109, 8);
+}
+
+
+.sign-up{
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ffff;
+}
+.sign-up a{
+    text-decoration: none;
+    color: #000000;
+}
+.sign-up:hover {
+    background-color:#EE9730;
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+}
+  .sec-one {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 300px; */
+  }
+  
+  .body {
+    width: 80%;
+    /* height: 90%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .about h3 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 100px;
+  }
+  
+  .main-text h4 {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 400;
+  }
+  
+  .text {
+    width: 80%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin-left: 90px;
+    line-height: 200px;
+    font-size: 22px;
+  }
+  @media (max-width:774px) {
+    .body{
+      margin-top: 100px;
+      margin-left: -20px;
+      width: 100%;
+    }
+    .header{
+        display: flex;
+    }
+    .navs a{
+        display: none;
+    }
+    .logo{
+        margin-top: -20px;
+    }
+    .hanburger{
+        display: block;
+    }
+    .sec-one{
+      width: 100%;
+      margin-top: 200px;
+      margin-left: -60px;
+    }
+    .main-text h4 {
+      width: 100%;
+    }
+  }
+    
+
+  

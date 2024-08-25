@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:white;
+}
+
+body h1{
+    font-size: 18px;
+}
+div{
+    width: 50%;
+    height: 70vh;
+    border: 2px solid black;
+    margin-top: 100px;
+    border-radius: 10px;
+
+}
