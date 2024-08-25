@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #EE9730;
+}
+section{
+    display: flex;
+    justify-content: start;
+    margin-top: 70px;
+    width: 40%;
+    height: 80vh;
+    background-color:black;
+    border-radius: 10px;
+}
+ .left{
+    padding: 40px;
+    margin-left: 10px;
+    width:60% ;
+    height: 80vh;
+}
+.left .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+.left .text h1{
+    color: #ffff;
+    font-weight: 600;
+    margin-bottom: 10px;
+  margin-right: -140px;
+}
+.left .text p{
+    color: rgb(190, 190, 190);
+    margin-right: -140px;
+}
+form{
+    margin-top: 30px;
+}
+form h1, h2,h3{
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #B5BAC1;
+}
+form h1 a{
+    color:#EE9730;
+}
+form h2 a{
+    color: #EE9730;
+}
+form h3 a{
+    font-size: 15px;
+}
+form input{
+    width: 400px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #1E1F22;
+    color:rgb(213, 213, 213);
+    overflow: none;
+}
+form h2{
+margin-top: 10px;}
+form a{
+    font-size: 15px;
+    color:#9d5b0b;
+    margin-bottom:15px;
+    cursor: pointer;
+}
+form h3{
+    font-size: 15px;
+}
+button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px;
+    background-color:#EE9730;
+    color: #ffff;
+    font-weight: 600;
+    cursor: pointer;
+}
+button:hover {
+   background-color:#cd750a;
+   color: #f7f3f3;
+}
+@media (max-width:774px){
+    section{
+        width: 85%;
+        display: flex;
+        justify-content: stretch;
+    }
+    
+    .left .text{
+        text-align: center;
+    }
+    form{
+        max-width: 300px;
+    }
+
+    form input{
+        width:300px;
+    }
+    button{
+        width:300px ;
+    }
+
+}
+@media (max-width:1071px) {
+    section{
+        width: 85%;
+        display: flex;
+    }
+}
